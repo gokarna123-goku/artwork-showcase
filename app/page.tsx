@@ -1,6 +1,12 @@
+import { CTA } from "@/components/cta/CTA";
 import { FeatureArt } from "@/components/featureart/FeatureArt";
+import { FeatureArtist } from "@/components/featureartist/FeatureArtist";
+import { Footer } from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import { Hero } from "@/components/hero/Hero";
+import { Membership } from "@/components/membership/Membership";
+import { Testimonial } from "@/components/testimonial/Testimonial";
+import { WhyUs } from "@/components/whyus/WhyUs";
 
 export default function Home() {
   return (
@@ -18,24 +24,23 @@ export default function Home() {
           <FeatureArt />
 
           {/* Featured Artists Section */}
-          <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-gray-900 to-black">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex justify-between items-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-white">
-                  <span className="text-cyan-400">Top</span> Artists
-                </h2>
-                <button className="text-purple-500 hover:text-purple-400 group">
-                  View All{" "}
-                  {/* <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" /> */}
-                </button>
-              </div>
+          <FeatureArtist />
 
-              {/* <ArtistsSection /> */}
-            </div>
-          </section>
+          {/* Features Section */}
+          <WhyUs />
+
+          {/* Testimonials section */}
+          <Testimonial />
+
+          {/* Membership Section */}
+          <Membership />
+
+          {/* CTA Section */}
+          <CTA />
         </div>
 
         {/* Footer */}
+        <Footer />
       </div>
     </>
   );
