@@ -18,7 +18,7 @@ export const Hero = () => {
             collectors come together
           </p>
           <div className="flex items-center gap-6">
-            <button className="md:text-lg text-base font-medium bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white md:px-8 px-6 py-3 text-base rounded-lg ease-in-out duration-300 cursor-pointer">
+            <button className="md:text-lg font-medium bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white md:px-8 px-6 py-3 text-base rounded-lg ease-in-out duration-300 cursor-pointer">
               Explore Gallery
             </button>
             <button className="md:text-lg text-base font-medium bg-neutral-100 text-neutral-700 hover:bg-neutral-300 md:px-8 px-6 py-3 rounded-lg ease-in-out duration-300 cursor-pointer">

@@ -111,11 +111,10 @@ export const FeatureArt = () => {
                             onClick={() => toggleLike(artwork.id)}
                           >
                             <IoMdHeartEmpty
-                              className={`h-5 w-5 ${
-                                likedArtworks.includes(artwork.id)
-                                  ? "fill-pink-500 text-pink-500"
-                                  : ""
-                              }`}
+                              className={`h-5 w-5 ${likedArtworks.includes(artwork.id)
+                                ? "fill-pink-500 text-pink-500"
+                                : ""
+                                }`}
                             />
                           </button>
                           <div className="flex gap-4">

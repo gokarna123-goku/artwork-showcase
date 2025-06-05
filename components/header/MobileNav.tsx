@@ -36,7 +36,7 @@ export default function MobileNav({ onClose }: MobileNavProps) {
         </button>
         <div className="h-8"></div>
         <button
-          className="border-2 border-cyan-400 bg-cyan-400/10 text-white text-cyan-400 hover:bg-cyan-400/10 px-8 py-2 text-base rounded-lg"
+          className="border-2 border-cyan-400 bg-cyan-400/10 text-white hover:bg-cyan-400/10 px-8 py-2 text-base rounded-lg"
           onClick={onClose}
         >
           Sign In
